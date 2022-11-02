@@ -3627,6 +3627,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@prisma/engines@npm:4.5.0":
+  version: 4.5.0
+  resolution: "@prisma/engines@npm:4.5.0"
+  checksum: 287150c809e817a008a219207ae30b74d5469e90a64c3800780e1a65c96f571d8b5da19bf62c6d27dc46a7e25692eb8697eb8f22996f24c9add35b8062fdab46
+  languageName: node
+  linkType: hard
+
 "@prisma/fetch-engine@npm:4.3.1":
   version: 4.3.1
   resolution: "@prisma/fetch-engine@npm:4.3.1"
@@ -19305,6 +19312,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prisma@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "prisma@npm:4.5.0"
+  dependencies:
+    "@prisma/engines": 4.5.0
+  bin:
+    prisma: build/index.js
+    prisma2: build/index.js
+  checksum: 1f77adcbc757badac26f37f2296565390491386d4ce8d198fced9263c5ab450d43b8bb1674e70c004bb07005ebcd053611eaacfe651890cfb8334896c37b338f
+  languageName: node
+  linkType: hard
+
 "process-nextick-args@npm:~2.0.0":
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
@@ -20529,6 +20548,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": 3.1.2
+    prisma: ^4.5.0
   languageName: unknown
   linkType: soft
 
@@ -23541,6 +23561,7 @@ __metadata:
     "@redwoodjs/forms": 3.1.2
     "@redwoodjs/router": 3.1.2
     "@redwoodjs/web": 3.1.2
+    humanize-string: 2.1.0
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
